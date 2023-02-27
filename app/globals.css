@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    * {
+        @apply border-gray-500 tracking-wide
+    }
+
+    html {
+        overflow-x: hidden;
+    }
+    body {
+        @apply bg-black text-white overflow-x-hidden
+    }
+    .container {
+        @apply lg:w-[60%] mx-auto
+    }
+    input {
+        @apply bg-gray-800 rounded-full px-5 py-1 border outline-none;
+    }
+}

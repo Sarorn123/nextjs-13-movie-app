@@ -1,0 +1,1 @@
+export const background = "https://images.hdqwalls.com/download/john-wick-dog-4k-2020-88-1920x1080.jpg"
